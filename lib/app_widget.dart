@@ -20,7 +20,6 @@ class AppWidget extends StatelessWidget {
             initialRoute: '/',
             routes: {
               '/': (context) => HomePage(),
-              '/about': (context) => AboutMe(),
             },
           );
         });
