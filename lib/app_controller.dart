@@ -10,12 +10,3 @@ class AppController extends ChangeNotifier {
     notifyListeners();
   }
 }
-
-class TodoController extends ChangeNotifier {
-  static TodoController instance = TodoController();
-  bool isDone = false;
-  changeDone() {
-    isDone = !isDone;
-    notifyListeners();
-  }
-}

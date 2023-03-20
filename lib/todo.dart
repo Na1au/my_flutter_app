@@ -33,11 +33,10 @@ class ToDo extends StatelessWidget {
           "- Check my drive folder",
           style: TextStyle(fontSize: 20),
         ),
-        //onTap: () => launch(''),
         ),
         Container(height: 10),
         Text(
-          "- Space Invaders game",
+          "- Check my repository in GitHub",
           style: TextStyle(fontSize: 20),
         ),
         ],)

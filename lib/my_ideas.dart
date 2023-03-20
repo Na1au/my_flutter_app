@@ -15,7 +15,7 @@ class MyIdeas extends StatelessWidget {
         child: Column(children: [
           Container(height: 50),
           Text(
-          "These are my ideas for GSOC 2023: ",
+          "These are my project ideas for GSOC 2023: ",
           style: TextStyle(fontSize: 25),
         ),
         Container(height: 10),
