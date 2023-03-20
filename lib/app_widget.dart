@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:liquid_galaxy_app/app_controller.dart';
-import 'package:liquid_galaxy_app/about_me.dart';
 
 import 'home_page.dart';
 

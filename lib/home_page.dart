@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:liquid_galaxy_app/app_controller.dart';
 import 'package:liquid_galaxy_app/my_ideas.dart';
 import 'change_theme.dart';
 import 'about_me.dart';
