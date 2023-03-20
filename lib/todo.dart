@@ -1,15 +1,6 @@
 import 'package:flutter/material.dart';
 import 'change_theme.dart';
 
-class TodoController extends ChangeNotifier {
-  static TodoController instance = TodoController();
-  bool isDone = false;
-  changeDone() {
-    isDone = !isDone;
-    notifyListeners();
-  }
-}
-
 class ToDo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
